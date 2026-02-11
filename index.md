@@ -53,10 +53,10 @@ title: Home
     const buttons = document.getElementById('buttonGroup');
 
     if (choice === 'yes') {
-      image.src = "{{ '/assets/images/happy-cat.jfif' | relative_url }}";
+      image.src = "{{ '/assets/images/dancing_cat.gif' | relative_url }}";
       text.textContent = "YAY!!! 💖 I can’t wait to spend Saturday with you!";
     } else {
-      image.src = "{{ '/assets/images/sad-cat.jfif' | relative_url }}";
+      image.src = "{{ '/assets/images/sad_cat.jfif' | relative_url }}";
       text.textContent = "Oh no 😿 I’ll still bring snacks though...";
     }
 
