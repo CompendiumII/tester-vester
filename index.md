@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Hello World 👋
+# Hello Aeriel :]
 
-Welcome to my GitHub Pages site using the **Minimal** Jekyll theme.
-
-This site is live and powered by Jekyll ✨
+Please press the button to begin...
