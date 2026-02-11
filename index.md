@@ -5,11 +5,11 @@ title: Home
 
 # Hello Aeriel :]
 
-Please press the button to begin...
+WILL YOU BE MY VALENTINES THIS SATURDAY?
 
 <div class="centered">
   <img src="{{ '/assets/images/cat.jfif' | relative_url }}" style="max-width:300px;">
   <br><br>
-  <a class="button primary" href="#option1">Option One</a>
-  <a class="button secondary" href="#option2">Option Two</a>
+  <a class="button primary" href="#option1">YES!!!</a>
+  <a class="button secondary" href="#option2">no...</a>
 </div>
