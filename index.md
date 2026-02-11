@@ -57,8 +57,8 @@ title: Home
     // YES only works on the first screen
     if (state !== 'initial') return;
 
-    image.src = "{{ '/assets/images/happy-cat.jfif' | relative_url }}";
-    text.textContent = "YAY!!! 💖 I can’t wait to spend Saturday with you!";
+    image.src = "{{ '/assets/images/dancing_cat.gif' | relative_url }}";
+    text.textContent = "HOOORAY!!! I LOVE YOU AND I'M EXCITED TO SEE YOU SATURDAY!!!";
     buttons.style.display = 'none';
     state = 'accepted';
   }
@@ -70,7 +70,7 @@ title: Home
 
     if (state === 'initial') {
       // First NO → Are you sure?
-      image.src = "{{ '/assets/images/sad-cat.jfif' | relative_url }}";
+      image.src = "{{ '/assets/images/sad_cat.jfif' | relative_url }}";
       text.textContent = "Are you sure? 🥺";
       yesBtn.style.opacity = '0.5';
       yesBtn.style.cursor = 'not-allowed';
