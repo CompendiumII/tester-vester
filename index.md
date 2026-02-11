@@ -9,7 +9,7 @@ Please press the button to begin...
 
 <div style="text-align: center; margin-top: 2rem;">
 
-  <img src="{{ '/cat.png' | relative_url }}"
+  <img src="{{ '/new1.jfif' | relative_url }}"
        alt="Cat image"
        style="max-width: 300px; width: 100%; margin-bottom: 1.5rem;">
 
