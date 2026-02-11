@@ -5,13 +5,38 @@
 
 .button {
   display: inline-block;
-  padding: 0.6rem 1.2rem;
-  margin: 0.3rem 0/8rem;
-  border-radius: 6px;
+  padding: 0.6rem 1.4rem;
+  margin: 0.3rem 0.8rem;
+
+  background: transparent;
+  color: #24292e;
+
+  border: 2px solid #24292e;
+  border-radius: 8px;
+
   text-decoration: none;
   font-weight: 600;
+  font-size: 0.95rem;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.primary {
+  border-color: #0366d6;
+  color: #0366d6;
+}
+
+.secondary {
+  border-color: #6f42c1;
+  color: #6f42c1;
+}
+
+.button:hover {
+  background-color: currentColor;
   color: white;
 }
 
-.primary { background: #0366d6; }
-.secondary { background: #6f42c1; }
+.button:active {
+  transform: translateY(1px);
+}
