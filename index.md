@@ -9,7 +9,7 @@ Please press the button to begin...
 
 <div style="text-align: center; margin-top: 2rem;">
 
-  <img src="{{ '/assets/images/cat.png' | relative_url }}"
+  <img src="{{ '/cat.png' | relative_url }}"
        alt="Cat image"
        style="max-width: 300px; width: 100%; margin-bottom: 1.5rem;">
 
