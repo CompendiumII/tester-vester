@@ -7,9 +7,38 @@ title: Home
 
 WILL YOU BE MY VALENTINES THIS SATURDAY?
 
-<div class="centered">
-  <img src="{{ '/assets/images/cat.jfif' | relative_url }}" style="max-width:300px;">
-  <br><br>
-  <a class="button primary" href="#option1">YES!!!</a>
-  <a class="button secondary" href="#option2">no...</a>
+<div style="text-align: center; margin-top: 2rem;">
+
+  <img src="{{ '/assets/images/cat.jfif' | relative_url }}"
+       alt="Cat image"
+       style="max-width: 300px; width: 100%; margin-bottom: 1.5rem;">
+
+  <div>
+    <a href="#option1" style="
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      margin: 0.3rem;
+      background: #0366d6;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    ">
+      YES!!!
+    </a>
+
+    <a href="#option2" style="
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      margin: 0.3rem;
+      background: #6f42c1;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    ">
+      No...
+    </a>
+  </div>
+
 </div>
